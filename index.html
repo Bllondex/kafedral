@@ -1,0 +1,73 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Храмы и Соборы СПб</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<!-- Шрифты -->
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class="wrapper">
+			<div class="header">
+				<!-- Меню -->
+				<div class="header__menuList">
+					<div class="header__home"><a href="index.html">Домой</a></div>
+					<div class="header__AboutUs"><a href="aboutUs.html">О нас</a></div>
+					<div class="header__Contact"><a href="Contacts.html">Контакты</a></div>
+				</div>
+				<div class="header__icon">
+					<!-- Выбор языка -->
+					<div class="button_ruLang"><a href=""><img src="img/RU.png" alt=""></a></div>
+					<div class="button_enLang"><a href="index-En.html"><img src="img/EN.png" alt=""></a></div>
+					<!-- Лого -->
+					<img src="img/icon.png" alt="">
+				</div>
+			</div>
+			<div class="body">
+				<!-- ОСНОВНАЯ ИНФОРМАЦИЯ ДОКУМЕНТА -->
+				<div class="body__info info">
+					<div class="info__header">
+						<img src="img/icon.png" alt="">
+					</div>
+					<div class="info__title">
+						<h1>Общая информация</h1>
+					</div>
+					<div class="info__text">
+						<p>Данный интернет ресурс создан в целях получения информации о достопремечательностях города Санкт-Петербурга.</p>
+						<p><span>Санкт-Петербург</span> – один из красивейших мегаполисов мира, посмотреть на который приезжают путешественники из разных уголков планеты. Только в 2015 году здесь побывало свыше 3,7 млн российских и 2,8 млн иностранных туристов. Раскинувшийся на побережье Финского залива, в устье реки Невы, Санкт-Петербург является вторым по величине городом России (в статусе самостоятельного субъекта федерации) и одновременно административным центром Ленинградской области и Северо-Западного федерального округа.</p>
+					</div>
+				</div>
+				<!-- Сайдбар и реклама -->
+				<div class="body__sidebar sidebar">
+					<div class="sidebar__title">Коллекция:</div>
+					<div class="sidebar__menuList">
+						<div class="sidebar__menuItem"><a href="KazanCathedral.html">Казанский кафедральный собор</a></div>
+						<div class="sidebar__menuItem"><a href="Saint_Isaac'sCathedral.html">Исаакиевский собор</a></div>
+						<div class="sidebar__menuItem"><a href="Savior-on-Spilled_Blood.html">Спас на Крови</a></div>
+						<div class="sidebar__menuItem"><a href="SmolnyCathedral.html">Смольный собор</a></div>
+						<div class="sidebar__menuItem"><a href="Peter-and-PaulCathedral.html">Петропавловский собор</a></div>
+					</div>
+					<!-- Реклама -->
+					<div class="sidebar__advertising">Здесь будет ваша реклама!</div>
+				</div>
+			</div>
+			<!-- Счётчик гостей и имя автора -->
+			<div class="footer">
+				<div class="footer__counter">
+					Количество посещений: 
+					<span id='count'>0</span>
+					<script src="js/counter.js"></script>
+				</div>
+				<div class="footer__info">Автор: Евгений Шишкин</div>
+			</div>
+		</div>
+	</body>
+</html>

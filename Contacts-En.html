@@ -1,0 +1,75 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Храмы и Соборы СПб</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<!-- Шрифты -->
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class="wrapper">
+			<div class="header">
+				<!-- Меню -->
+				<div class="header__menuList">
+					<div class="header__home"><a href="index-En.html">Home</a></div>
+					<div class="header__AboutUs"><a href="aboutUs-En.html">About us</a></div>
+					<div class="header__Contact"><a href="Contacts-En.html">Contacts</a></div>
+				</div>
+				<div class="header__icon">
+					<!-- Выбор языка -->
+					<div class="button_ruLang"><a href="Contacts.html"><img src="img/RU.png" alt=""></a></div>
+					<div class="button_enLang"><a href=""><img src="img/EN.png" alt=""></a></div>
+					<!-- Лого -->
+					<img src="img/icon.png" alt="">
+				</div>
+			</div>
+			<div class="body">
+				<!-- ОСНОВНАЯ ИНФОРМАЦИЯ ДОКУМЕНТА -->
+				<div class="body__info info">
+					<div class="info__title">
+						<h3>Contact Information</h3>
+					</div>
+					<div class="info__contact">
+						<div class="info__card">
+							<img src="img/unnamed.jpg" alt="">
+						</div>
+						<div class="info__cardInfo">
+							<p>Sergey Smolny is the founder of the project and the head of the organization.</p>
+							<p>Phone number: 89000000000</p>
+						</div>
+					</div>
+				</div>
+				<!-- Сайдбар и реклама -->
+				<div class="body__sidebar sidebar">
+					<div class="sidebar__title">Collection:</div>
+					<div class="sidebar__menuList">
+						<div class="sidebar__menuItem"><a href="KazanCathedral-En.html">Kazan Cathedral</a></div>
+						<div class="sidebar__menuItem"><a href="Saint_Isaac'sCathedral-En.html">Saint Isaac's Cathedral</a></div>
+						<div class="sidebar__menuItem"><a href="Savior-on-Spilled_Blood-En.html">Savior on Spilled Blood</a></div>
+						<div class="sidebar__menuItem"><a href="SmolnyCathedral-En.html">Smolny Cathedral</a></div>
+						<div class="sidebar__menuItem"><a href="Peter-and-PaulCathedral-En.html">Peter and Paul Cathedral</a></div>
+					</div>
+					<!-- Реклама -->
+					<div class="sidebar__advertising">Your ad will be here!</div>
+				</div>
+			</div>
+			<!-- Счётчик гостей и имя автора -->
+			<div class="footer">
+				<div class="footer__counter">
+					Number of visits: 
+					<span id='count'>0</span>
+					<script src="js/counter.js"></script>
+				</div>
+				<div class="footer__info">Author: Evgeny Shishkin</div>
+			</div>
+		</div>
+	</body>
+</html>
