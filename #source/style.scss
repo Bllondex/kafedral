@@ -95,6 +95,7 @@ body{
 	}
 }
 .sidebar {
+	position: relative;
 	&__menuList {
 		margin-bottom: 70px;
 	}
@@ -112,8 +113,23 @@ body{
 		display: flex;
 		justify-content: center;
 		align-items: center;
-
 	}
+	&__button_up{
+		margin-top: 20px;
+		position: absolute;
+		top: 600px;
+		right: -50px;
+	}
+}
+.button-up{
+	width: 50px;
+	height: 50px;
+	background: url(../img/direction_arrow_blue_up.jpg);
+	background-position: center;
+	border-radius: 100%;
+	background-size: cover;
+	position: fixed;
+	
 }
 
 .footer{

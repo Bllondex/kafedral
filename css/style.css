@@ -144,6 +144,9 @@ body p span {
   flex: 0 0 30%;
 }
 
+.sidebar {
+  position: relative;
+}
 .sidebar__menuList {
   margin-bottom: 70px;
 }
@@ -161,6 +164,22 @@ body p span {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.sidebar__button_up {
+  margin-top: 20px;
+  position: absolute;
+  top: 600px;
+  right: -50px;
+}
+
+.button-up {
+  width: 50px;
+  height: 50px;
+  background: url(../img/direction_arrow_blue_up.jpg);
+  background-position: center;
+  border-radius: 100%;
+  background-size: cover;
+  position: fixed;
 }
 
 .footer {
