@@ -95,7 +95,6 @@ body{
 	}
 }
 .sidebar {
-	position: relative;
 	&__menuList {
 		margin-bottom: 70px;
 	}
@@ -117,8 +116,8 @@ body{
 	&__button_up{
 		margin-top: 20px;
 		position: absolute;
-		top: 600px;
-		right: -50px;
+		bottom: 70px;
+		right: 14%;
 	}
 }
 .button-up{
